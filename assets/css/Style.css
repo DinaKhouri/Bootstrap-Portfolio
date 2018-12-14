@@ -122,3 +122,9 @@ body > div > div:nth-child(1) > div.col-sm-10 > h1{
 body > div > div:nth-child(2) > div.col-sm-10 > img{
 	float:left;
 }
+/* added one media querie to make the small screen more aesthetically appealing :) */
+@media screen and (max-width:640px){
+    body > div > div:nth-child(2) > div.col-sm-10 > img{
+		float:none;
+		width:100%;
+}
